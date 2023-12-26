@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>问卷调查</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="questionare.css"style="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="questionare">
+        <h1>日语歌普及程度问卷调查</h1>
+        <hr>
+        <form>
+            <ol>
+                <li>您的性别是</li>
+                <label>
+                    <input type="radio" name="t1" required="required">男
+                </label>
+                <label>
+                    <input type="radio" name="t1">女
+                </label>
+                <li>您的年龄是</li>
+                <label>
+                    <input type="radio" name="t2" required="required">15岁以下
+                </label>
+                <label>
+                    <input type="radio" name="t2">15~18岁
+                </label>
+                <label>
+                    <input type="radio" name="t2">18~22岁
+                </label>
+                <label>
+                    <input type="radio" name="t2">22岁以上
+                </label>
+                <li>听过《群青》或者是《idol》吗</li>
+                <label>
+                    <input type="radio" name="t5" required="required">听过
+                </label>
+                <label>
+                    <input type="radio" name="t5">没听过
+                </label>
+                <li>认识YOASOBI吗</li>
+                <label>
+                    <input type="radio" name="t6">认识
+                </label>
+                <label>
+                    <input type="radio" name="t6" required="required">不认识
+                </label>
+                <li>平时对日语歌接触的多吗</li>
+                <label>
+                    <input type="radio" name="t3" required="required">完全没听过
+                </label>
+                <label>
+                    <input type="radio" name="t3">偶尔听过
+                </label>
+                <label>
+                    <input type="radio" name="t3">经常听
+                </label>
+                <label>
+                    <input type="radio" name="t3">最喜欢听
+                </label>
+                <li>通过什么渠道接触到日语歌的(可多选)</li>
+                <label>
+                    <input type="checkbox" name="t4" required="required">没接触过
+                </label><br>
+                <label>
+                    <input type="checkbox" name="t4">抖音/bilibili等视频平台
+                </label><br>
+                <label>
+                    <input type="checkbox" name="t4">日本动漫
+                </label><br>
+                <label>
+                    <input type="checkbox" name="t4">相关游戏
+                </label><br>
+                <label>
+                    <input type="checkbox" name="t4">他人推荐
+                </label><br>
+                <label>
+                    <input type="checkbox" name="t4">其他
+                </label><br>
+            </ol>
+            <label>您的姓名<input type="text" name="s1" required="required"></label>
+            <label>您的学校<input type="text" name="s2" required="required"></label>
+            <label>您的联系方式<input type="text" name="s3" required="required"></label>
+            <div class="submit">
+                <button type="submit">提交</button>
+            </div>
+        </form>
+    </div>
+
+
+</body>
+
+</html>
